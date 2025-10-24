@@ -10,7 +10,7 @@
 </div></font>
 
 ## 👀 UNO-Bench Overview
-Multimodal Large Language Models are advancing from uni-modal to omni-modal understanding, integrating visual, audio, and language modalities. However, the relationship between uni-modal and omni-modal performance needs clarification, necessitating thorough evaluation to enhance omni model intelligence. We introduce **UNO-Bench**, a novel benchmark that evaluates both uni-modal and omni-modal capabilities. It includes 3730 human-curated samples across 44 task types and features an innovative multi-step open-ended question type for assessing complex reasoning. Additionally, we propose a general scoring model supporting 6 question types for automatic evaluation with 95% accuracy. Experimental results reveal a compositional law between omni-modal and uni-modal performance, with omni-modal capability acting as a bottleneck for weak models but promoting synergy in strong models.
+Multimodal Large Language Models are advancing from uni-modal to omni-modal understanding, integrating visual, audio, and language modalities. However, the relationship between uni-modal and omni-modal performance needs clarification, necessitating thorough evaluation to enhance omni model intelligence. We introduce **UNO-Bench**, a novel benchmark that evaluates both uni-modal and omni-modal capabilities. It includes 3730 human curated samples, with 98% cross-modality solvability, across 44 task types, and features an innovative multi-step open-ended question type for assessing complex reasoning. Additionally, we propose a general scoring model supporting 6 question types for automatic evaluation with 95% accuracy. Experimental results reveal a **Compositional Law** between omni-modal and uni-modal performance, with omni-modal capability acting as a bottleneck for weak models but promoting synergy in strong models.
 
 <div>
 <p align="center">
@@ -31,7 +31,7 @@ The MultiModal Benchmarks compare image (I), audio (A), video (V), and text (T) 
 
 **Material Collection**
 
-Our materials feature three key characteristics: **a. Diverse Sources**—primarily real-world photos and videos from crowdsourcing, supplemented by copyright-free websites and high-quality public datasets like MMVU, LongVideoBench, and VideoVista. **b. Rich and Diverse Topics**—spanning society, culture, art, life, literature, and science. **c. Live-Recorded Audio**—dialogue recorded by over 20 human speakers, ensuring rich audio features that mirror real-world vocal diversity.
+Our materials feature three key characteristics: **a. Diverse Sources**—primarily real-world photos and videos from crowdsourcing, supplemented by copyright-free websites and high-quality public datasets . **b. Rich and Diverse Topics**—spanning society, culture, art, life, literature, and science. **c. Live-Recorded Audio**—dialogue recorded by over 20 human speakers, ensuring rich audio features that mirror real-world vocal diversity.
 
 **QA Annotation**
 
@@ -40,6 +40,10 @@ Our annotators include human experts and skilled crowd-sourced users. Human expe
 **Quality Inspection**
 
 To ensure data quality, we use a multi-stage quality assurance system combining automated tools and manual review. Each question undergoes three independent inspections: a preliminary model check filters out ambiguous or non-conforming questions; modality ablation experiments test cross-modality solvability by removing one modality; and final manual inspection and revision ensure accuracy.
+
+**Data Compression**
+
+Regarding automated data compression, we propose a cluster-guided stratified sampling method to compress the scale of 18 public benchmarks and achieve a 90% dataset compression with 98% ranking consistency.
 
 <div>
 <p align="center">
@@ -119,7 +123,7 @@ $$
   - ✅ Paper
   - ✅ Dataset Examples
   - 🚧 Benchmark Leaderboard
-  - 🚧 Omni-Bench Data
+  - 🚧 UNO-Bench Dataset
 - **Code**
   - 🚧 Evaluation Toolkit
   - 🚧 Model Weights and Configurations
