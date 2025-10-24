@@ -4,7 +4,8 @@
 </p>
 
 <font size=7><div align='center' >  
-[[📖 arXiv Paper](https://arxiv.org/abs/2510.18915)] 
+[[📖 Github Paper](./paper.pdf)] 
+[[📖 ArXiv Paper(updating)](https://arxiv.org/abs/2510.18915)] 
 [[📊 UNO-Bench Data(comming soon)](.)] 
 </div></font>
 
@@ -50,7 +51,9 @@ To ensure data quality, we use a multi-stage quality assurance system combining 
 
 UNO-Bench is consists of multi-choice questions and multi-step open-ended questions. 
 
-Below shows a multi-choice question example from UNO-Bench:
+**A multi-choice question example**
+
+<!--
 ```
 {
     "task": "Life Reasoning",
@@ -75,19 +78,25 @@ Below shows a multi-choice question example from UNO-Bench:
     "modality": "text-video-audio",
     "problem_modality": "audio"
 }
-```
+```-->
 
-<video width="320" height="240" controls>
-  <source src="./assets/videos/video1-1.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+**Question**: A Tyndall effect-like experiment refers to: "In a medium containing tiny particles (such as milk or smoke), a beam of light is used to illuminate it, causing the particles to scatter the light and reveal its trajectory, like a 'path of light'". Please combine the information above with the video and audio, and select the correct answer from the options below to respond to the question in the audio:
+[audio1-1.mp3](https://github.com/user-attachments/files/23119884/audio1-1.mp3) (If the liquid in the video is replaced with diluted milk, with all other conditions remaining the same, would the phenomenon shown in the video still occur? Why?)
 
-<audio controls>
-  <source src="./assets/audios/audio1-1.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
+A. Yes, it will; because the liquid replaced in the audio is mineral water, which has the same composition as the liquid in the cup from the video, thus the same phenomenon can be produced.
 
-Below shows a multi-step open-ended question example from UNO-Bench:
+**B. No, it will not; because in the liquid replaced in the audio, only a bright path of light is visible.**
+
+C. No, it will not; because the liquid replaced in the audio is a strongly acidic substance, and a neutralization reaction will occur in the end.
+
+D. Yes, it will; because a bright path of light can also be seen in the liquid replaced in the audio.
+
+[video1-1.mp4](https://github.com/user-attachments/assets/6c728423-01da-454e-b795-52aef6ea9cba)
+
+---
+
+**A multi-step open-ended question example**
+<!--
 ```
 {
     "task": "Timing Alignment",
@@ -107,7 +116,19 @@ Below shows a multi-step open-ended question example from UNO-Bench:
     "modality": "text-image-audio",
     "problem_modality": "text"
 }
-```
+``` -->
+
+**Question:** Here is the text information: "One day, David went to a lottery store and bought a scratch card. One of the winning rules for this scratch card is: 'Scratch off the cover film. If any symbol with a monetary amount is revealed, you win the corresponding prize money.' Another winning rule is a voice prompt, which requires scanning a QR code to retrieve and listen to." [audio2-1.mp3](https://github.com/user-attachments/files/23120081/audio2-1.mp3)(After scratching off the covering film, a peach pattern represents a prize of 50 yuan, and a Chinese knot pattern represents a prize of 100 yuan.) is the audio information David got after scanning the QR code. <image_1> is the picture of the scratch card David bought. Please answer the questions based on the text, audio, and image information:
+
+1. How many types of winning symbols are on the scratch card David bought? (Please answer in the format "x types", where x is an Arabic numeral).
+   
+2. What is the total amount of prize money that David won?
+
+**1. 3 types (4 points)**
+**2. 350 yuan (6 points)**
+
+<img width="1279" height="1369" alt="image2-1" src="https://github.com/user-attachments/assets/9d78d914-267d-416e-9388-20a58d296eee" />
+
 ## 🔍 Results
 
 Our main evaluation reveals a clear performance hierarchy where proprietary models, particularly Gemini-2.5-Pro, establish the state-of-the-art across all benchmarks.
