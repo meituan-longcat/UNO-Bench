@@ -77,6 +77,16 @@ Below shows a multi-choice question example from UNO-Bench:
 }
 ```
 
+<video width="320" height="240" controls>
+  <source src="./assets/videos/video1-1.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+<audio controls>
+  <source src="./assets/audios/audio1-1.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
 Below shows a multi-step open-ended question example from UNO-Bench:
 ```
 {
@@ -124,7 +134,7 @@ $$
 
 - **Data**
   - ✅ paper
-  - ✅ demo
+  - ✅ dataset examples
   - 🚧 Omni-MC: Omni Multi-choice Question Dataset
   - 🚧 Omni-MO: Omni Multi-step Open-ended Question Dataset
 - **Code**
