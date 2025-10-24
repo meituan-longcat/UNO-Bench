@@ -4,7 +4,7 @@
 </p>
 
 <font size=7><div align='center' >  
-[[📖 Github Paper](./paper.pdf)] 
+[[📖 Github Paper](./UNO-Bench.pdf)] 
 [[📖 ArXiv Paper(updating)](https://arxiv.org/abs/2510.18915)] 
 [[📊 UNO-Bench Data(comming soon)](.)] 
 </div></font>
@@ -64,7 +64,7 @@ C. No, it will not; because the liquid replaced in the audio is a strongly acidi
 
 D. Yes, it will; because a bright path of light can also be seen in the liquid replaced in the audio.
 
-[video1.mp4](https://github.com/user-attachments/assets/6c728423-01da-454e-b795-52aef6ea9cba)
+[video1.mp4](https://github.com/user-attachments/assets/7995dd3e-2149-4774-b57b-bc63b899e129)
 
 ---
 
@@ -74,7 +74,9 @@ D. Yes, it will; because a bright path of light can also be seen in the liquid r
 2. When Regions II and IV are colored with different colors, how many coloring methods are there?
 3. In summary, what is the total number of coloring methods?"
 
+<p align="center">
 <img width="239" height="192" alt="image2" src="https://github.com/user-attachments/assets/42af66e8-0084-43a8-bccf-b671e1362293" />
+</p>
 
 **Answer:**
 
