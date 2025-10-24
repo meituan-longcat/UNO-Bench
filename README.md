@@ -5,8 +5,8 @@
 
 <font size=7><div align='center' >  
 [[📑 Github Paper](./UNO-Bench.pdf)] 
-[[🌐 ArXiv Paper(updating)](https://arxiv.org/abs/2510.18915)] 
-[[📊 UNO-Bench Data(comming soon)](.)] 
+[[🌐 ArXiv Paper(updating)]] 
+[[📊 UNO-Bench Data(comming soon)]] 
 </div></font>
 
 ## 👀 UNO-Bench Overview
@@ -53,26 +53,31 @@ UNO-Bench is consists of multi-choice question samples and multi-step open-ended
 
 ---
 
-**Question**: A Tyndall effect-like experiment refers to: "In a medium containing tiny particles (such as milk or smoke), a beam of light is used to illuminate it, causing the particles to scatter the light and reveal its trajectory, like a 'path of light'". Please combine the information above with the video and audio, and select the correct answer from the options below to respond to the question in the audio:
-[audio1.mp3](https://github.com/user-attachments/files/23120495/audio1.mp3) (If the liquid in the video is replaced with diluted milk, with all other conditions remaining the same, would the phenomenon shown in the video still occur? Why?)
+**Question**: 视频展示了我最近在玩的一款游戏，玩家通过手指在屏幕上划动，来切开各种飞来的水果，如西瓜、凤梨、猕猴桃、草莓、香蕉等，切中不同的水果会有不同的得分，如没切到，则不得分。同时，需要避开时不时出现的炸弹，一旦切到炸弹，游戏就会结束。已知切一个猕猴桃是2分，一个草莓3分，一个杨桃20分，一个橙子6分。音频是其他水果的得分规则。请根据以上所有信息、视频和音频回答我，视频中这把游戏一共拿了多少分？请从以下选项中，选出一个正确答案：
 
-A. Yes, it will; because the liquid replaced in the audio is mineral water, which has the same composition as the liquid in the cup from the video, thus the same phenomenon can be produced.
+A. 30分
 
-**B. No, it will not; because in the liquid replaced in the audio, only a bright path of light is visible.**
+**B. 35分**
 
-C. No, it will not; because the liquid replaced in the audio is a strongly acidic substance, and a neutralization reaction will occur in the end.
+C. 37分
 
-D. Yes, it will; because a bright path of light can also be seen in the liquid replaced in the audio.
+D. 40分
 
-[video1.mp4](https://github.com/user-attachments/assets/7995dd3e-2149-4774-b57b-bc63b899e129)
+[audio1.mp3](https://github.com/user-attachments/files/23122214/audio1.mp3)（音频内容：一个西瓜10分，一个香蕉2分，一个青苹果1分，一个柠檬3分，一个椰子5分，一个红苹果3分，一个桃子1分）
+
+[video1.mp4](https://github.com/user-attachments/assets/06667f0f-dd36-4d61-909a-912f778755c6)
+
+
 
 ---
 
-**Question:** Given that Xiaoming has 5 different colors, he will use these 5 colors to color the four regions as shown in the figure. If Xiaoming colors Region I first, there are 5 ways to color it. Then he colors Regions II and IV, and finally Region III. Based on the information above, the requirements in [audio2.mp3](https://github.com/user-attachments/files/23120500/audio2.mp3) (Requirement: In the provided image, any two regions that share a common border cannot be the same color, and each region must be colored with only one color), and the image content, answer the following questions:
+**Question:** Given that Xiaoming has 5 different colors, he will use these 5 colors to color the four regions as shown in the figure. If Xiaoming colors Region I first, there are 5 ways to color it. Then he colors Regions II and IV, and finally Region III. Based on the information above, the requirements in audio, and the image content, answer the following questions:
 
 1. When Regions II and IV are colored with the same color, how many coloring methods are there?
 2. When Regions II and IV are colored with different colors, how many coloring methods are there?
 3. In summary, what is the total number of coloring methods?"
+
+[audio2.mp3](https://github.com/user-attachments/files/23120500/audio2.mp3) (Audio Content: In the provided image, any two regions that share a common border cannot be the same color, and each region must be colored with only one color)
 
 <p align="center">
 <img width="239" height="192" alt="image2" src="https://github.com/user-attachments/assets/42af66e8-0084-43a8-bccf-b671e1362293" />
@@ -116,6 +121,7 @@ $$
 - **Data**
   - ✅ paper
   - ✅ dataset examples
+  - 🚧 benchmark leaderboard
   - 🚧 Omni-MC: Omni Multi-choice Question Dataset
   - 🚧 Omni-MO: Omni Multi-step Open-ended Question Dataset
 - **Code**
