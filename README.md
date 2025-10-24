@@ -4,8 +4,8 @@
 </p>
 
 <font size=7><div align='center' >  
-[[📖 Github Paper](./UNO-Bench.pdf)] 
-[[📖 ArXiv Paper(updating)](https://arxiv.org/abs/2510.18915)] 
+[[📑 Github Paper](./UNO-Bench.pdf)] 
+[[🌐 ArXiv Paper(updating)](https://arxiv.org/abs/2510.18915)] 
 [[📊 UNO-Bench Data(comming soon)](.)] 
 </div></font>
 
