@@ -136,7 +136,7 @@ If you find our work helpful for your research, please consider citing our work.
       eprint={2510.18915},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2510.18915}, 
+      url={arxiv}, 
 }
 ```
 
