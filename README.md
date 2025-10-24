@@ -5,8 +5,8 @@
 
 <font size=7><div align='center' >  
 [[📑 Github Paper](./UNO-Bench.pdf)] 
-[[🌐 ArXiv Paper(updating)]] 
-[[📊 UNO-Bench Data(comming soon)]] 
+[🌐 ArXiv Paper(updating)]
+[📊 UNO-Bench Data(comming soon)] 
 </div></font>
 
 ## 👀 UNO-Bench Overview
