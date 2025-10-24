@@ -1,6 +1,6 @@
 <h1> UNO-Bench: A Unified Benchmark for Exploring the Compositional Law Between Uni-modal and Omni-modal in OmniModels</h1>
 <p align="center" width="100%">
-<img src="assets/images/uno-bench-title.jpg"  width="80%" height="100%">
+<img src="assets/uno-bench-title.jpg"  width="80%" height="100%">
 </p>
 
 <font size=7><div align='center' >  
@@ -14,7 +14,7 @@ Multimodal Large Language Models are advancing from uni-modal to omni-modal unde
 
 <div>
 <p align="center">
-  <img src="./assets/images/omni-ability.png" width="80%" height="100%" />
+  <img src="./assets/omni-ability.png" width="80%" height="100%" />
 </p>
 </div>
 
@@ -22,7 +22,7 @@ The MultiModal Benchmarks compare image (I), audio (A), video (V), and text (T) 
 
 <div>
 <p align="center">
-  <img src="./assets/images/data-statistics.png" width="80%" height="100%" />
+  <img src="./assets/data-statistics.png" width="80%" height="100%" />
 </p>
 </div>
 
@@ -43,7 +43,7 @@ To ensure data quality, we use a multi-stage quality assurance system combining 
 
 <div>
 <p align="center">
-  <img src="./assets/images/omni-data-pipeline.png" width="80%" height="100%" />
+  <img src="./assets/omni-data-pipeline.png" width="80%" height="100%" />
 </p>
 </div>
 
@@ -91,7 +91,7 @@ C. No, it will not; because the liquid replaced in the audio is a strongly acidi
 
 D. Yes, it will; because a bright path of light can also be seen in the liquid replaced in the audio.
 
-[video1-1.mp4](https://github.com/user-attachments/assets/6c728423-01da-454e-b795-52aef6ea9cba)
+[video1.mp4](https://github.com/user-attachments/assets/6c728423-01da-454e-b795-52aef6ea9cba)
 
 ---
 
@@ -133,13 +133,13 @@ D. Yes, it will; because a bright path of light can also be seen in the liquid r
 
 Our main evaluation reveals a clear performance hierarchy where proprietary models, particularly Gemini-2.5-Pro, establish the state-of-the-art across all benchmarks.
 <p align="center">
-  <img src="./assets/images/cross-modal-results.png" width="60%" height="100%" />
+  <img src="./assets/cross-modal-results.png" width="60%" height="100%" />
 </p>
 
 **Finding 1. 📍Gemini-2.5-Pro demonstrates human-like perception in omni-modal understanding but lags in reasoning ability.** The model's performance is only 8.3% lower than human experts, indicating comparable intelligence. Interestingly, humans excel more in reasoning (81.3%) than perception (74.3%), contrasting with the model's strengths.
 
 <p align="center">
-  <img src="./assets/images/gemini-2.5-vs-human.png" width="60%" height="100%" />
+  <img src="./assets/gemini-2.5-vs-human.png" width="60%" height="100%" />
 </p>
 
 **Finding 2. 📍Compositional Law: Omni-modal capability effectiveness correlates with the product of individual modality performances following a power-law.** The observed omni-modal scores align closely with the product of uni-modal scores, as shown by the fitted law (dashed line), achieving an impressive $R^2=0.9759$. The convex, accelerating curve illustrates the power-law synergy.
@@ -148,7 +148,7 @@ $$
 P_{\text{Omni}} = C \cdot (P_{\text{Audio}} \times P_{\text{Visual}})^{\alpha} + b
 $$
 <p align="center">
-  <img src="./assets/images/compositional-law.png" width="60%" height="100%" />
+  <img src="./assets/compositional-law.png" width="60%" height="100%" />
 </p>
 
 ## 📌 Checklist
