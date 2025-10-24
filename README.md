@@ -119,8 +119,7 @@ $$
   - ✅ Paper
   - ✅ Dataset Examples
   - 🚧 Benchmark Leaderboard
-  - 🚧 Omni-MC: Omni Multi-choice Question Dataset
-  - 🚧 Omni-MO: Omni Multi-step Open-ended Question Dataset
+  - 🚧 Omni-Bench Data
 - **Code**
   - 🚧 Evaluation Toolkit
   - 🚧 Model Weights and Configurations
