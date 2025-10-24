@@ -81,7 +81,7 @@ UNO-Bench is consists of multi-choice questions and multi-step open-ended questi
 ```-->
 
 **Question**: A Tyndall effect-like experiment refers to: "In a medium containing tiny particles (such as milk or smoke), a beam of light is used to illuminate it, causing the particles to scatter the light and reveal its trajectory, like a 'path of light'". Please combine the information above with the video and audio, and select the correct answer from the options below to respond to the question in the audio:
-[audio1-1.mp3](https://github.com/user-attachments/files/23119884/audio1-1.mp3) (If the liquid in the video is replaced with diluted milk, with all other conditions remaining the same, would the phenomenon shown in the video still occur? Why?)
+[audio1.mp3](https://github.com/user-attachments/files/23119884/audio1-1.mp3) (If the liquid in the video is replaced with diluted milk, with all other conditions remaining the same, would the phenomenon shown in the video still occur? Why?)
 
 A. Yes, it will; because the liquid replaced in the audio is mineral water, which has the same composition as the liquid in the cup from the video, thus the same phenomenon can be produced.
 
