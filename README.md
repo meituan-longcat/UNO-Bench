@@ -4,10 +4,10 @@
 </p>
 
 <font size=7><div align='center' >  
-[[📑 Github Paper](./UNO-Bench.pdf)] 
+[[📑 Paper](./UNO-Bench.pdf)] 
 [🌐 [Project](https://meituan-longcat.github.io/UNO-Bench)]
-[📊 ArXiv Paper(updating)]
-[[🤗 UNO-Bench Data](https://huggingface.co/datasets/meituan-longcat/UNO-Bench)] 
+[📊 ArXiv(updating)]
+[[🤗 Data](https://huggingface.co/datasets/meituan-longcat/UNO-Bench)] 
 </div></font>
 
 ## 👀 UNO-Bench Overview
