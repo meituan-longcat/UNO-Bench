@@ -18,13 +18,21 @@ Multimodal Large Language Models are advancing from uni-modal to omni-modal unde
 </p>
 </div>
 
-The MultiModal Benchmarks compare image (I), audio (A), video (V), and text (T) modalities, reporting omni-modal solution accuracy (Acc.) and percentage (Solvable). Source origin affects data contamination, with private sources being safer. QA types are multi-choice (MC) and multi-step open-ended (MO), in English (EN) and Chinese (CH). UNO-Bench features 1250 omni-modal (-omni) and 2480 uni-modal (-uni) samples.
+<!-- The MultiModal Benchmarks compare image (I), audio (A), video (V), and text (T) modalities, reporting omni-modal solution accuracy (Acc.) and percentage (Solvable). Source origin affects data contamination, with private sources being safer. QA types are multi-choice (MC) and multi-step open-ended (MO), in English (EN) and Chinese (CH). UNO-Bench features 1250 omni-modal (-omni) and 2480 uni-modal (-uni) samples. -->
 
 <div>
 <p align="center">
   <img src="./assets/data-statistics.png" width="80%" height="100%" />
 </p>
 </div>
+
+**Main Contributions**
+
+- 🌟 **Propose UNO-Bench, the first unified omni model benchmark**, efficiently assessing uni-modal and omni-modal understanding. It verifies the compositional law between these capabilities, acting as a bottleneck for weaker models and enhancing stronger ones.
+
+- 🌟 **Establish a high-quality dataset pipeline** with human-centric processes and automated compression. UNO-Bench contains 1250 omni-modal samples with 98% cross-modality solvability and 2480 uni-modal samples across 44 task types and 6 question types. The dataset excels in real-world scenarios, especially in China, and offers a 90% speed increase while maintaining 98% consistency across 18 benchmarks.
+
+- 🌟 **Introduce Multi-Step Open-Ended Questions (MO)** for complex reasoning evaluation, providing realistic results. A General Scoring Model supports 6 question types with 95% accuracy on OOD models and benchmarks.
 
 
 ## 📊 Dataset Construction
@@ -55,45 +63,15 @@ Regarding automated data compression, we propose a cluster-guided stratified sam
 
 UNO-Bench is consists of multi-step open-ended question samples and multi-choice question samples: 
 
----
-
-**Question:** Given that Xiaoming has 5 different colors, he will use these colors to color the four regions in the figure. If Xiaoming colors Region I first, there are 5 ways to color it. Then he colors Regions II and IV, and finally Region III. Based on the information above, the requirements in audio, and the image, answer the following questions:
-
-1. When Regions II and IV are colored with the same color, how many coloring methods are there?
-2. When Regions II and IV are colored with different colors, how many coloring methods are there?
-3. In summary, what is the total number of coloring methods?"
-
-[audio1.mp3](https://github.com/user-attachments/files/23122352/audio1.mp3)(Audio Content: In the provided image, any two regions that share a common border cannot be the same color, and each region must be colored with only one color)
-
 <p align="center">
-<img width="239" height="192" alt="image2" src="https://github.com/user-attachments/assets/42af66e8-0084-43a8-bccf-b671e1362293" />
+<img width="239" height="192" alt="image2" src="./assets/omni-perception-cases.png" />
 </p>
 
-**Answer:**
+<p align="center">
+<img width="239" height="192" alt="image2" src="./assets/omni-reasoning-cases.png" />
+</p>
 
-1. 80 (4 points)
-
-2. 180 (4 points)
-
-3. 260 (2 points)
-
----
-
-**Question**: 视频展示了我最近在玩的一款游戏，玩家通过手指在屏幕上划动，来切开各种飞来的水果，如西瓜、凤梨、猕猴桃、草莓、香蕉等，切中不同的水果会有不同的得分，如没切到，则不得分。已知切一个猕猴桃是2分，一个草莓3分，一个杨桃20分，一个橙子6分。音频中有其他水果的得分规则。请根据以上所有信息、视频和音频回答我，视频中这把游戏一共拿了多少分？请从以下选项中，选出一个正确答案：
-
-A. 30分
-
-**B. 35分**
-
-C. 37分
-
-D. 40分
-
-[audio2.mp3](https://github.com/user-attachments/files/23122214/audio1.mp3)（音频内容：一个西瓜10分，一个香蕉2分，一个青苹果1分，一个柠檬3分，一个椰子5分，一个红苹果3分，一个桃子1分）
-
-[video2.mp4](https://github.com/user-attachments/assets/2baafc12-b14a-4fd1-831b-9517589a766b)
-
-
+More samples please refer to project page.
 
 ## 🔍 Results
 
