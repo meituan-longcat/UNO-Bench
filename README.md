@@ -117,7 +117,7 @@ If you find our work helpful for your research, please consider citing our work.
 ```bash
 @misc{chen2025unobench,
       title={UNO-Bench: A Unified Benchmark for Exploring the Compositional Law Between Uni-modal and Omni-modal in OmniModels}, 
-      author={Chen Chen and ZeYang Hu and Fengjiao Chen and Liya Ma and Jiaxing Liu and Xiaoyu Li and Xuezhi Cao},
+      author={Chen Chen and ZeYang Hu and Fengjiao Chen and Liya Ma and Jiaxing Liu and Xiaoyu Li and Xuezhi Cao and Xunliang Cai},
       year={2025},
       eprint={2510.18915},
       archivePrefix={arXiv},
