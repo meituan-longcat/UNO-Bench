@@ -5,8 +5,9 @@
 
 <font size=7><div align='center' >  
 [[📑 Github Paper](./UNO-Bench.pdf)] 
-[🌐 ArXiv Paper(updating)]
-[[📊 UNO-Bench Data](https://huggingface.co/datasets/meituan-longcat/UNO-Bench)] 
+[🌐 [Project]()]
+[📊 ArXiv Paper(updating)]
+[[🤗 UNO-Bench Data](https://huggingface.co/datasets/meituan-longcat/UNO-Bench)] 
 </div></font>
 
 ## 👀 UNO-Bench Overview
@@ -61,7 +62,7 @@ Regarding automated data compression, we propose a cluster-guided stratified sam
 
 ## 📍 Dataset Examples
 
-The capabilities of UNO-Bench are systematically categorized into two primary dimensions: Perception and Reasoning. Please click UNO-Bench too download [UNO-Bench](https://huggingface.co/datasets/meituan-longcat/UNO-Bench). 
+The capabilities of UNO-Bench are systematically categorized into two primary dimensions: Perception and Reasoning. Please click [data link](https://huggingface.co/datasets/meituan-longcat/UNO-Bench) to download UNO-Bench. 
 
 Below shows some examples from UNO-Bench:
 
@@ -75,7 +76,7 @@ Below shows some examples from UNO-Bench:
 <img alt="image2" src="./assets/omni-reasoning-cases.png" />
 </p>
 
-More samples please refer to project page.
+For more samples, please refer to project page.
 
 ## 🔍 Results
 
