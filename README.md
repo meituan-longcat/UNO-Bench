@@ -5,7 +5,7 @@
 
 <font size=7><div align='center' >  
 [[📑 Github Paper](./UNO-Bench.pdf)] 
-[🌐 [Project]()]
+[🌐 [Project](https://meituan-longcat.github.io/UNO-Bench)]
 [📊 ArXiv Paper(updating)]
 [[🤗 UNO-Bench Data](https://huggingface.co/datasets/meituan-longcat/UNO-Bench)] 
 </div></font>
@@ -76,7 +76,7 @@ Below shows some examples from UNO-Bench:
 <img alt="image2" src="./assets/omni-reasoning-cases.png" />
 </p>
 
-For more samples, please refer to project page.
+For more samples, please refer to [project page](https://meituan-longcat.github.io/UNO-Bench).
 
 ## 🔍 Results
 
