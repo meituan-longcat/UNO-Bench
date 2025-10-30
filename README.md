@@ -4,10 +4,10 @@
 </p>
 
 <div align="center" style="line-height: 1;">
-  <a href='https://meituan-longcat.github.io/UNO-Bench'><img src='https://img.shields.io/badge/Project-Page-green'></a>
-  <a href='https://arxiv.org/abs/2510.18915'><img src='https://img.shields.io/badge/Technique-Report-red'></a>
-  <a href='https://huggingface.co/datasets/meituan-longcat/UNO-Bench'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Data-blue'></a>
-  <a href='LICENSE'><img src='https://img.shields.io/badge/License-MIT-f5de53?&color=f5de53'></a>
+  <a target='_blank' href='https://meituan-longcat.github.io/UNO-Bench'><img src='https://img.shields.io/badge/Project-Page-green'></a>
+  <a target='_blank' href='https://arxiv.org/abs/2510.18915'><img src='https://img.shields.io/badge/Technique-Report-red'></a>
+  <a target='_blank' href='https://huggingface.co/datasets/meituan-longcat/UNO-Bench'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Data-blue'></a>
+  <a href='./'><img src='https://img.shields.io/badge/License-MIT-f5de53?&color=f5de53'></a>
 </div>
 
 
