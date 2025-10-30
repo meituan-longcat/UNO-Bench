@@ -1,17 +1,18 @@
-<h1> UNO-Bench: A Unified Benchmark for Exploring the Compositional Law Between Uni-modal and Omni-modal in OmniModels</h1>
+<h1> UNO-Bench: A Unified Benchmark for Exploring the Compositional Law Between Uni-modal and Omni-modal in Omni Models</h1>
 <p align="center" width="100%">
 <img src="assets/uno-bench-title.jpg"  width="80%" height="100%">
 </p>
 
-<font size=7><div align='center' >  
-[[📑 Paper](./UNO-Bench.pdf)] 
-[🌐 [Project](https://meituan-longcat.github.io/UNO-Bench)]
-[📊 ArXiv(updating)]
-[[🤗 Data](https://huggingface.co/datasets/meituan-longcat/UNO-Bench)] 
-</div></font>
+<div align="center" style="line-height: 1;">
+  <a href='https://meituan-longcat.github.io/UNO-Bench'><img src='https://img.shields.io/badge/Project-Page-green'></a>
+  <a href='https://arxiv.org/abs/2510.18915'><img src='https://img.shields.io/badge/Technique-Report-red'></a>
+  <a href='https://huggingface.co/datasets/meituan-longcat/UNO-Bench'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Data-blue'></a>
+  <a href='LICENSE'><img src='https://img.shields.io/badge/License-MIT-f5de53?&color=f5de53'></a>
+</div>
+
 
 ## 👀 UNO-Bench Overview
-Multimodal Large Languages models have been progressing from uni-modal understanding toward unifying visual, audio and language modalities, collectively termed omni models. However, the correlation between uni-modal and omni-modal remains unclear, which requires comprehensive evaluation to drive omni model's intelligence evolution. In this work, we introduce a novel, high-quality, and \textbf{UN}ified \textbf{O}mni model benchmark, \textbf{UNO-Bench}. This benchmark is designed to effectively evaluate both **UN**i-modal and \textbf{O}mni-modal capabilities under a unified ability taxonomy, spanning 44 task types and 5 modality combinations. It includes 1250 human curated samples for omni-modal with 98\% cross-modality solvability, and 2480 enhanced uni-modal samples. The human-generated dataset is well-suited to real-world scenarios, particularly within the Chinese context, whereas the automatically compressed dataset offers a 90\% increase in speed and maintains 98\% consistency across 18 public benchmarks. In addition to traditional multi-choice questions, we propose an innovative multi-step open-ended question format to assess complex reasoning. A general scoring model is incorporated, supporting 6 question types for automated evaluation with 95\% accuracy. Experimental result shows the \textbf{Compositional Law} between omni-modal and uni-modal performance and the omni-modal capability manifests as a bottleneck effect on weak models, while exhibiting synergistic promotion on strong models.
+Multimodal Large Languages models have been progressing from uni-modal understanding toward unifying visual, audio and language modalities, collectively termed omni models. However, the correlation between uni-modal and omni-modal remains unclear, which requires comprehensive evaluation to drive omni model's intelligence evolution. In this work, we introduce a novel, high-quality, and **UN**ified **O**mni model benchmark, **UNO-Bench**. This benchmark is designed to effectively evaluate both **UN**i-modal and **O**mni-modal capabilities under a unified ability taxonomy, spanning 44 task types and 5 modality combinations. It includes 1250 human curated samples for omni-modal with 98% cross-modality solvability, and 2480 enhanced uni-modal samples. The human-generated dataset is well-suited to real-world scenarios, particularly within the Chinese context, whereas the automatically compressed dataset offers a 90% increase in speed and maintains 98% consistency across 18 public benchmarks. In addition to traditional multi-choice questions, we propose an innovative multi-step open-ended question format to assess complex reasoning. A general scoring model is incorporated, supporting 6 question types for automated evaluation with 95% accuracy. Experimental result shows the **Compositional Law** between omni-modal and uni-modal performance and the omni-modal capability manifests as a bottleneck effect on weak models, while exhibiting synergistic promotion on strong models.
 
 <div>
 <p align="center">
@@ -31,7 +32,7 @@ Multimodal Large Languages models have been progressing from uni-modal understan
 
 - 🌟 **Propose UNO-Bench, the first unified omni model benchmark**, efficiently assessing uni-modal and omni-modal understanding. It verifies the compositional law between these capabilities, acting as a bottleneck for weaker models and enhancing stronger ones.
 
-- 🌟 **Establish a high-quality dataset pipeline** with human-centric processes and automated compression. UNO-Bench contains 1250 omni-modal samples with 98% cross-modality solvability and 2480 uni-modal samples across 44 task types and 6 question types. The dataset excels in real-world scenarios, especially in China, and offers a 90% speed increase while maintaining 98% consistency across 18 benchmarks.
+- 🌟 **Establish a high-quality dataset pipeline** with human-centric processes and automated compression. UNO-Bench contains 1250 omni-modal samples with 98% cross-modality solvability and 2480 uni-modal samples across 44 task types and 5 modality combinations. The dataset excels in real-world scenarios, especially in China, and offers a 90% speed increase while maintaining 98% consistency across 18 benchmarks.
 
 - 🌟 **Introduce Multi-Step Open-Ended Questions (MO)** for complex reasoning evaluation, providing realistic results. A General Scoring Model supports 6 question types with 95% accuracy on OOD models and benchmarks.
 
@@ -62,9 +63,7 @@ Regarding automated data compression, we propose a cluster-guided stratified sam
 
 ## 📍 Dataset Examples
 
-The capabilities of UNO-Bench are systematically categorized into two primary dimensions: Perception and Reasoning. Please click [data link](https://huggingface.co/datasets/meituan-longcat/UNO-Bench) to download UNO-Bench. 
-
-Below shows some examples from UNO-Bench:
+The capabilities of UNO-Bench are systematically categorized into two primary dimensions: Perception and Reasoning. Please click [link](https://huggingface.co/datasets/meituan-longcat/UNO-Bench) to download UNO-Bench. Below shows some examples from UNO-Bench:
 
 <p align="center">
 <img alt="image2" src="./assets/omni-perception-cases.png" />
@@ -76,7 +75,7 @@ Below shows some examples from UNO-Bench:
 <img alt="image2" src="./assets/omni-reasoning-cases.png" />
 </p>
 
-For more samples, please refer to [project page](https://meituan-longcat.github.io/UNO-Bench).
+For more samples, please refer to the project [page](https://meituan-longcat.github.io/UNO-Bench).
 
 ## 🔍 Results
 
@@ -85,13 +84,13 @@ Our main evaluation reveals a clear performance hierarchy where proprietary mode
   <img src="./assets/cross-modal-results.png" width="60%" height="100%" />
 </p>
 
-**Finding 1. 📍Gemini-2.5-Pro demonstrates human-like perception in omni-modal understanding but lags in reasoning ability.** The model's performance is only 8.3% lower than human experts, indicating comparable intelligence. Interestingly, humans excel more in reasoning (81.3%) than perception (74.3%), contrasting with the model's strengths.
+**Finding 1. 📍Perception Ability and Reasoning Ability:** Compared to human experts, Gemini-2.5-Pro exhibits similar performance in perception, but falls significantly behind in reasoning. Meanwhile, humans are more proficient in reasoning as opposed to perception (81.3% compared to 74.3%).
 
 <p align="center">
   <img src="./assets/gemini-2.5-vs-human.png" width="60%" height="100%" />
 </p>
 
-**Finding 2. 📍Compositional Law: Omni-modal capability effectiveness correlates with the product of individual modality performances following a power-law.** The observed omni-modal scores align closely with the product of uni-modal scores, as shown by the fitted law (dashed line), achieving an impressive $R^2=0.9759$. The convex, accelerating curve illustrates the power-law synergy.
+**Finding 2. 📍Compositional Law: the Product of Modality Performances:** The effectiveness of omni-modal capability is related to the product of the performances of individual modalities by a power-law, with a coefficient of determination of $R^2=0.9759$. 
 
 $$
 P_{\text{Omni}} = C \cdot (P_{\text{Audio}} \times P_{\text{Visual}})^{\alpha} + b
@@ -100,29 +99,29 @@ $$
   <img src="./assets/compositional-law.png" width="60%" height="100%" />
 </p>
 
+**Finding 3. 📍Redundant Synchronized Audio-visual Video Data:** Audio-visual synchronized video data is highly redundant, making it challenging to design questions that test understanding of both audio and visual. Consequently, using standard videos for training or evaluation makes it difficult to develop models with effective modal collaboration capabilities. For samples, please visit the project [page](https://meituan-longcat.github.io/UNO-Bench).
+
 ## 📌 Checklist
 
 - **Data**
-  - ✅ Paper
-  - ✅ Dataset Examples
-  - 🚧 Benchmark Leaderboard
-  - 🚧 UNO-Bench Dataset
+  - ✅ Benchmark Leaderboard
+  - ✅ UNO-Bench Dataset
 - **Code**
-  - 🚧 Evaluation Toolkit
-  - 🚧 Model Weights and Configurations
+  - □ Evaluation Toolkit
+  - □ Model Weights and Configurations
 
 ## 🖊️ Citation
 
 If you find our work helpful for your research, please consider citing our work.
 ```bash
 @misc{chen2025unobench,
-      title={UNO-Bench: A Unified Benchmark for Exploring the Compositional Law Between Uni-modal and Omni-modal in OmniModels}, 
+      title={UNO-Bench: A Unified Benchmark for Exploring the Compositional Law Between Uni-modal and Omni-modal in Omni Models}, 
       author={Chen Chen and ZeYang Hu and Fengjiao Chen and Liya Ma and Jiaxing Liu and Xiaoyu Li and Ziwen Wang and Xuezhi Cao and Xunliang Cai},
       year={2025},
       eprint={2510.18915},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
-      url={arxiv}, 
+      url={https://arxiv.org/abs/2510.18915}, 
 }
 ```
 
