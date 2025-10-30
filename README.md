@@ -1,4 +1,4 @@
-<h1> UNO-Bench: A Unified Benchmark for Exploring the Compositional Law Between Uni-modal and Omni-modal in Omni Models</h1>
+<img width="1466" height="153" alt="image" src="https://github.com/user-attachments/assets/65c27a9b-b71d-4d41-a871-1b800a617039" /><h1> UNO-Bench: A Unified Benchmark for Exploring the Compositional Law Between Uni-modal and Omni-modal in Omni Models</h1>
 <p align="center" width="100%">
 <img src="assets/uno-bench-title.jpeg"  width="80%" height="100%">
 </p>
@@ -91,7 +91,7 @@ Our main evaluation reveals a clear performance hierarchy where proprietary mode
 </p>
 
 **Finding 2. 📍Compositional Law: Omni-modal capability effectiveness correlates with the product of individual modality performances following a power-law.** 
-Motivated by our experimental observations and through rigorous mathematical derivation, we propose the following formula to model the compositional law:
+Based on the fundamental premise that nearly 100% of the questions in UNO-Bench require a joint understanding of audio and visual information, we combine experimental observations with rigorous mathematical derivation to propose the following formula for the compositional law.
 
 $$
 P_{\text{Omni}} = C \cdot (P_{\text{Audio}} \times P_{\text{Visual}})^{\alpha} + b
