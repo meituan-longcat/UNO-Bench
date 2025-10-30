@@ -1,6 +1,6 @@
 <h1> UNO-Bench: A Unified Benchmark for Exploring the Compositional Law Between Uni-modal and Omni-modal in Omni Models</h1>
 <p align="center" width="100%">
-<img src="assets/uno-bench-title.jpg"  width="80%" height="100%">
+<img src="assets/uno-bench-title.jpeg"  width="80%" height="100%">
 </p>
 
 <div align="center" style="line-height: 1;">
