@@ -90,11 +90,15 @@ Our main evaluation reveals a clear performance hierarchy where proprietary mode
   <img src="./assets/gemini-2.5-vs-human.png" width="60%" height="100%" />
 </p>
 
-**Finding 2. 📍Compositional Law: the Product of Modality Performances:** The effectiveness of omni-modal capability is related to the product of the performances of individual modalities by a power-law, with a coefficient of determination of $R^2=0.9759$. 
-
+**Finding 2. 📍Compositional Law: Omni-modal capability effectiveness correlates with the product of individual modality performances following a power-law.** 
+Motivated by our experimental observations and through rigorous mathematical derivation, we propose the following formula to model the compositional law:
 $$
 P_{\text{Omni}} = C \cdot (P_{\text{Audio}} \times P_{\text{Visual}})^{\alpha} + b
 $$
+This model fits our data almost perfectly, achieving a coefficient of determination ($R^2$) of $0.9759$.
+- $α=2.19$ is the synergistic exponent greater than 1, explaining the transition from a "short-board effect" to an "emergent ability".
+- $b=0.24$ is the baseline bias close to 0.25, reflecting the random-guess accuracy of our benchmark.
+- $C=1.03$ is the scaling coefficient close to 1, indicating a harmonious and naturally scaled system.
 <p align="center">
   <img src="./assets/compositional-law.png" width="60%" height="100%" />
 </p>
