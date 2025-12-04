@@ -1,0 +1,8 @@
+datasets
+huggingface_hub
+vllm>=0.8.5
+jieba
+nltk
+qwen_omni_utils
+transformers
+aiohttp

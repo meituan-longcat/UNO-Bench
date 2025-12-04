@@ -1,0 +1,7 @@
+__pycache__
+.locks
+.pytest_cache
+logs
+tests
+eval_results
+*.log
