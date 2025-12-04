@@ -8,6 +8,7 @@
   <a target="_blank" href='https://agi-eval.org/evaluation/detail?id=139'><img src='https://img.shields.io/badge/leaderboard-page-orange'></a>
   <a target="_blank" href='https://arxiv.org/abs/2510.18915'><img src='https://img.shields.io/badge/Technique-Report-red'></a>
   <a target="_blank" href='https://huggingface.co/datasets/meituan-longcat/UNO-Bench'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Data-blue'></a>
+  <a target="_blank" href='https://huggingface.co/meituan-longcat/UNO-Scorer-Qwen3-14B'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Model-UNOScorer-blue'></a>
   <a href='./'><img src='https://img.shields.io/badge/License-MIT-f5de53?&color=f5de53'></a>
 </div>
 
