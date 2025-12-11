@@ -15,6 +15,7 @@
 ## 🔔News
 - 🔥[2025/12/04] We have released the evaluation scripts [uno-eval](./uno-eval/), a unified evaluation framework for omni-modal benchmarks. More benchmarks will be supported in the future.
 - 🔥[2025/12/04] We have released the scoring model [UNO-Scorer-Qwen3-14B](https://huggingface.co/meituan-longcat/UNO-Scorer-Qwen3-14B). Feel free to use it!
+- 🔥[2025/10/29] We proposed a new omni-modal benchmark [UNO-Bench](https://meituan-longcat.github.io/UNO-Bench). The technical report is available [Arxiv](https://arxiv.org/abs/2510.18915). The dataset is available [Hugging Face](https://huggingface.co/datasets/meituan-longcat/UNO-Bench).
 ## 👀 UNO-Bench Overview
 Multimodal Large Languages models have been progressing from uni-modal understanding toward unifying visual, audio and language modalities, collectively termed omni models. However, the correlation between uni-modal and omni-modal remains unclear, which requires comprehensive evaluation to drive omni model's intelligence evolution. In this work, we introduce a novel, high-quality, and **UN**ified **O**mni model benchmark, **UNO-Bench**. This benchmark is designed to effectively evaluate both **UN**i-modal and **O**mni-modal capabilities under a unified ability taxonomy, spanning 44 task types and 5 modality combinations. It includes 1250 human curated samples for omni-modal with 98% cross-modality solvability, and 2480 enhanced uni-modal samples. The human-generated dataset is well-suited to real-world scenarios, particularly within the Chinese context, whereas the automatically compressed dataset offers a 90% increase in speed and maintains 98% consistency across 18 public benchmarks. In addition to traditional multi-choice questions, we propose an innovative multi-step open-ended question format to assess complex reasoning. A general scoring model is incorporated, supporting 6 question types for automated evaluation with 95% accuracy. Experimental result shows the **Compositional Law** between omni-modal and uni-modal performance and the omni-modal capability manifests as a bottleneck effect on weak models, while exhibiting synergistic promotion on strong models.
 
@@ -111,14 +112,23 @@ This model fits our data almost perfectly, achieving a coefficient of determinat
 
 **Finding 3. 📍Redundant Synchronized Audio-visual Video Data:** Audio-visual synchronized video data is highly redundant, making it challenging to design questions that test understanding of both audio and visual. Consequently, using standard videos for training or evaluation makes it difficult to develop models with effective modal collaboration capabilities. For samples, please visit the project [page](https://meituan-longcat.github.io/UNO-Bench).
 
+Our scorer model demonstrates superior performance in handling complex **Multi-Step Open-Ended Questions**. We compared the accuracy of our scorer against other advanced evaluators on our test set:
+
+| Model | Accuracy |
+| :--- | :--- |
+| Seed-1.5-VL | 0.9118 |
+| GPT-4.1 | 0.9457 |
+| **UNO-Scorer (Ours)** | **0.9505** |
+
+Experiments show that our scorer model surpasses even proprietary frontier models like GPT-4.1 in this specific evaluation domain with lower cost.
 ## 📌 Checklist
 
 - **Data**
   - ✅ Benchmark Leaderboard
   - ✅ UNO-Bench Dataset
 - **Code**
-  - □ Evaluation Toolkit
-  - □ Model Weights and Configurations
+  - ✅ Evaluation Toolkit
+  - ✅ Model Weights and Configurations
 
 ## 🖊️ Citation
 
