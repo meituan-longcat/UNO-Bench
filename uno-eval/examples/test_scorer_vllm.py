@@ -85,7 +85,7 @@ if __name__ == "__main__":
         message = build_message(question=case["question"], answer=answer, response=case["response"])
         messages.append(message)
 
-    score_responses = asyncio.run(score_client.generate_batch(messages, batch_size=32))
+    score_responses = asyncio.run(score_client.generate_batch(messages))
     pass_cnt = 0
     for score_response, case in zip(score_responses, test_cases):
         print("="*32)
