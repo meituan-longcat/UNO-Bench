@@ -17,7 +17,7 @@ pip install -r requirements.txt
 接下来你可以通过以下命令下载必要的模型权重和数据集：
 ```bash
 huggingface-cli download meituan-longcat/UNO-Bench --repo-type dataset --local-dir /path/to/UNO-Bench
-huggingface-cli download meituan-longcat/UNO-Scorer-Qwen3-14B --local-dir /path/to/UNO-Scorer
+huggingface-cli download AGI-Eval/UNO-Scorer-Qwen3-14B --local-dir /path/to/UNO-Scorer
 huggingface-cli download Qwen/Qwen2.5-Omni-7B --local-dir /path/to/Qwen2.5-Omni
 ```
 
